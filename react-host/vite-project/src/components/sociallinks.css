@@ -1,0 +1,17 @@
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.social-icon {
+  color: var(--text-secondary);
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}

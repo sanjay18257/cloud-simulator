@@ -1,0 +1,96 @@
+.download-button {
+  background: linear-gradient(45deg, #6366f1, #8b5cf6);
+  border: none;
+  color: white;
+  padding: 16px 40px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+  font-weight: 600;
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+.download-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.download-button {
+  margin-bottom: 30px;
+}
+.download-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 25px rgba(99, 102, 241, 0.3);
+}
+
+.download-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+  padding: 80px 20px;
+  border-radius: 24px;
+  margin: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+/* Keep all your existing CSS and add these new styles */
+
+.instructions-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 600px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.instructions-wrapper p {
+  color: var(--text-primary);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.instructions-wrapper ol {
+  text-align: left;
+  color: var(--text-secondary);
+  padding-left: 25px;
+  margin: 0;
+}
+
+.instructions-wrapper li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.instructions-wrapper li:last-child {
+  margin-bottom: 0;
+}
